@@ -6,7 +6,8 @@ import { AngularFireDatabase } from 'angularfire2/database/database';
 @Injectable()
 export class NoteService{
     constructor(public afDB:AngularFireDatabase){}
-    notes=[];  
+    notes=[]; 
+    note={id:null,title:null, description:null}; 
     numero ={numero:null, estado: 0};
     public getNotes(){
         return this.afDB.list('notas/');
