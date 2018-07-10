@@ -9,9 +9,11 @@ import { HomePage } from '../pages/home/home';
 import { NoteService } from '../services/notes.service';
 import { DetailPage } from '../pages/detail/detail';
 
+
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule, AngularFireDatabase } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+//import { VerifyPhonePage } from '../pages/verify-phone/verify-phone';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyCw9ZeqtugMR90IyjXDPDmEpbabJaHsnLI",
@@ -27,6 +29,7 @@ export const firebaseConfig = {
     MyApp,
     HomePage,
     DetailPage
+    //VerifyPhonePage
   ],
   imports: [
     BrowserModule,
@@ -40,6 +43,7 @@ export const firebaseConfig = {
     MyApp,
     HomePage,
     DetailPage
+    //VerifyPhonePage
   ],
   providers: [
     StatusBar,

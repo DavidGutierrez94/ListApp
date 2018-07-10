@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "80104295627",
+    "firebase_url": "https://imguploadtest-859f3.firebaseio.com",
+    "project_id": "imguploadtest-859f3",
+    "storage_bucket": "imguploadtest-859f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80104295627:android:b5e4947c98c8275f",
+        "android_client_info": {
+          "package_name": "com.restoAuth.sms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80104295627-06j5s73prrcqi7a2c8gpqcsgiuqrthku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restoAuth.sms",
+            "certificate_hash": "178457d7c49a93ed26c0fb499a9a87823a42bb51"
+          }
+        },
+        {
+          "client_id": "80104295627-3mssruijbbr0a6c5qrvkk9c9otnefcnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLOD12B8OORQIgtkQMqszxyYzQhu5Fo0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80104295627-3mssruijbbr0a6c5qrvkk9c9otnefcnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

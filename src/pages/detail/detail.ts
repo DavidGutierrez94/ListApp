@@ -16,7 +16,7 @@ import { subscribeOn } from 'rxjs/operator/subscribeOn';
   templateUrl: 'detail.html',
 })
 export class DetailPage {
-  note={id:null, title:null, description: null};
+  note={id:null};
   id =null;
   show=true;
   constructor(public navCtrl: NavController, public navParams: NavParams,public notesService: NoteService) {

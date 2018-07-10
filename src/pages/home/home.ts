@@ -2,6 +2,9 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { NoteService } from '../../services/notes.service';
 import { DetailPage } from '../detail/detail';
+//import {VerifyPhonePage} from '../verify-phone/verify-phone';
+
+
 
 
 @Component({
@@ -23,6 +26,9 @@ export class HomePage {
 
   public goToDetail(id){
     this.navCtrl.push(DetailPage,{id:id});
+  }
+  public goToVerify(){
+   // this.navCtrl.push(VerifyPhonePage);
   }
   public createNote(){
     this.navCtrl.push(DetailPage,{id:0});
