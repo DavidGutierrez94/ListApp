@@ -1,6 +1,6 @@
 {
   "name": "ListApp",
-  "app_id": "",
+  "app_id": "ad68115e",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
