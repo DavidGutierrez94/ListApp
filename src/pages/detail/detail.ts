@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NoteService } from '../../services/notes.service';
-import { subscribeOn } from 'rxjs/operator/subscribeOn';
+
 
 /**
  * Generated class for the DetailPage page.
@@ -16,20 +16,19 @@ import { subscribeOn } from 'rxjs/operator/subscribeOn';
   templateUrl: 'detail.html',
 })
 export class DetailPage {
-  note={};
+  public note; 
   id =null;
-  show=true;
+ 
   constructor(public navCtrl: NavController, public navParams: NavParams,public notesService: NoteService) {
     this.id = navParams.get('id');
     if(this.id != 0){
  
      notesService.getNote(this.id)
-     .valueChanges().subscribe(note=> {
+     .valueChanges().subscribe(note => {
    
-      this.note=note;
-  
-});
-     
+    this.note = note;
+  });
+    
     }
   }
 
@@ -42,7 +41,7 @@ export class DetailPage {
       alert('Numero editado con exito');
     }
     else{
-      this.note.id = Date.now();
+       this.note.id = Date.now();
       this.notesService.createNote(this.note);
       alert('Numero guardado con exito');
   

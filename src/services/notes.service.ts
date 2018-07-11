@@ -7,7 +7,7 @@ import { AngularFireDatabase } from 'angularfire2/database/database';
 export class NoteService{
     constructor(public afDB:AngularFireDatabase){}
  
-    note={id:null,title:null, description:null}; 
+   
     numero ={numero:null, estado: 0};
     public getNotes(){
         return this.afDB.list('notas/');
