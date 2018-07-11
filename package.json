@@ -29,6 +29,7 @@
     "angularfire2": "^5.0.0-rc.10",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-firebase": "^0.1.24",
+    "cordova-plugin-ionic": "^4.1.7",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^1.1.19",
     "cordova-plugin-splashscreen": "^5.0.2",
@@ -53,7 +54,15 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "ad68115e",
+        "CHANNEL_NAME": "Production",
+        "UPDATE_METHOD": "background",
+        "WARN_DEBUG": "true",
+        "UPDATE_API": "https://api.ionicjs.com",
+        "MAX_STORE": "2"
+      }
     },
     "platforms": [
       "android"
